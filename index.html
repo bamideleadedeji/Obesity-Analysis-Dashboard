@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Obesity Analysis - Interactive Charts</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f5f5f5;
+        }
+        .header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+        .chart-card {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        .chart-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+        }
+        .chart-link {
+            color: #3498db;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .chart-link:hover {
+            color: #2980b9;
+            text-decoration: underline;
+        }
+        .description {
+            color: #7f8c8d;
+            margin-top: 10px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .stats {
+            background-color: #ecf0f1;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Obesity Analysis Dashboard</h1>
+            <p>Interactive visualizations of obesity levels based on eating habits and physical condition</p>
+            <div class="stats">
+                <p><strong>Dataset:</strong> UCI Obesity Dataset (ID: 544)</p>
+                <p><strong>Records:</strong> 2111 individuals</p>
+                <p><strong>Features:</strong> 16 lifestyle factors</p>
+                <p><strong>Generated:</strong> 2026-02-07 17:00:31</p>
+            </div>
+        </div>
+        
+        <h2>Interactive Charts</h2>
+        <p>Click on any chart below to open it in a new tab. All charts are fully interactive.</p>
+        
+        
+    <div class="chart-card">
+        <a href="1_obesity_distribution.html" target="_blank" class="chart-link">Obesity Level Distribution</a>
+        <div class="description">Interactive pie chart showing the distribution of different obesity levels in the dataset</div>
+    </div>
+    
+    <div class="chart-card">
+        <a href="2_bmi_visualizer.html" target="_blank" class="chart-link">BMI Visualizer</a>
+        <div class="description">Height vs Weight scatter plot with BMI color coding and reference lines</div>
+    </div>
+    
+    <div class="chart-card">
+        <a href="3_age_distribution.html" target="_blank" class="chart-link">Age Analysis</a>
+        <div class="description">Box plots showing age distribution across different obesity levels</div>
+    </div>
+    
+    <div class="chart-card">
+        <a href="4_lifestyle_dashboard.html" target="_blank" class="chart-link">Lifestyle Factors Dashboard</a>
+        <div class="description">Comprehensive analysis of eating habits and physical activity factors</div>
+    </div>
+    
+    <div class="chart-card">
+        <a href="5_correlation_heatmap.html" target="_blank" class="chart-link">Correlation Heatmap</a>
+        <div class="description">Interactive correlation matrix showing relationships between all features</div>
+    </div>
+    
+    <div class="chart-card">
+        <a href="6_feature_importance.html" target="_blank" class="chart-link">Feature Importance</a>
+        <div class="description">Bar chart ranking the most important factors for obesity prediction</div>
+    </div>
+    
+    <div class="chart-card">
+        <a href="7_parallel_coordinates.html" target="_blank" class="chart-link">Parallel Coordinates</a>
+        <div class="description">Parallel coordinates plot showing patterns across multiple features</div>
+    </div>
+    
+    <div class="chart-card">
+        <a href="8_3d_scatter.html" target="_blank" class="chart-link">3D Scatter Plot</a>
+        <div class="description">Interactive 3D visualization of Age, Weight, and Height by obesity level</div>
+    </div>
+    
+        
+        <div style="margin-top: 40px; padding: 20px; background-color: #e8f4f8; border-radius: 8px;">
+            <h3>How to Use These Charts:</h3>
+            <ul>
+                <li><strong>Hover</strong> over any point to see detailed information</li>
+                <li><strong>Click and drag</strong> to zoom in on specific areas</li>
+                <li><strong>Double-click</strong> to reset the view</li>
+                <li><strong>Click on legend items</strong> to show/hide categories</li>
+                <li>Use <strong>mouse wheel</strong> to zoom in/out on 3D charts</li>
+                <li>All charts work in any modern web browser</li>
+            </ul>
+        </div>
+        
+        <footer style="margin-top: 40px; text-align: center; color: #7f8c8d; padding: 20px;">
+            <p>Generated using Python, Plotly, and Jupyter Notebook</p>
+            <p>Dataset: Estimation of obesity levels based on eating habits and physical condition (UCI ML Repository)</p>
+        </footer>
+    </div>
+</body>
+</html>
