@@ -16,7 +16,7 @@ This folder contains interactive visualizations of the Obesity Dataset from the 
 - `8_3d_scatter.html` - 3D scatter plot
 
 ## How to Use
-1. Simply open `index.html` in any modern web browser (Chrome, Firefox, Edge, Safari)
+1. Simply open `index.html` in any modern web browser (https://idyllic-buttercream-2623cb.netlify.app/)
 2. Click on any chart to view it full screen
 3. All charts are fully interactive:
    - Hover over elements to see details
@@ -40,3 +40,4 @@ This folder contains interactive visualizations of the Obesity Dataset from the 
 Generated on: 2026-02-07 17:03:16
 
 Enjoy exploring the data!
+
